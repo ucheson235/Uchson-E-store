@@ -1,0 +1,46 @@
+.bi{
+    font-size: 1.3rem;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.slideView{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.slideBox{
+    width: max-content;
+    overflow-x: scroll;
+    scrollbar-width: noon;
+    -ms-overflow-style: noon;
+}
+
+.slideBox::-webkit-scrollbar{
+    display: none;
+}
+
+.slideArrow{
+    position: absolute;
+    bottom: 50%;
+}
+.bi-arrow-left-circle-fill, .bi-arrow-right-circle-fill {
+    font-size: 30px;
+    color: red;
+}
+.bi-arrow-left-circle-fil{
+    color: black;
+}
+.bi-arrow-right-circle-fil{
+    color: black;
+}
+/* .bi-search{
+   color: aqua;
+}
+.bi-cart-fill{
+    color: chartreuse;
+} */
